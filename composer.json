@@ -1,0 +1,15 @@
+{
+  "name": "hallofthegods/xophz-compass-bulletin-board",
+  "description": "Enterprise-grade WordPress forum, topics, boards, and Noosphere Observer engine for COMPASS.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Hall of the Gods, Inc.",
+      "homepage": "http://www.hallofthegods.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
