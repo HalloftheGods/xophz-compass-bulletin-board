@@ -18,7 +18,7 @@
  * Plugin Name:       Xophz Bulletin Board
  * Plugin URI:        https://github.com/HalloftheGods/xophz-compass-bulletin-board
  * Description:       Enterprise-grade WordPress forum software, topic dispatcher, and Noosphere Observer engine.
- * Version:           26.8.25
+ * Version:           26.9.4-171
  * Author:            Hall of the Gods, Inc.
  * Author URI:        http://www.hallofthegods.com/
  * License:           GPL-2.0+
@@ -37,7 +37,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Current plugin version.
  */
-define( 'XOPHZ_COMPASS_BULLETIN_BOARD_VERSION', '26.8.25' );
+define( 'XOPHZ_COMPASS_BULLETIN_BOARD_VERSION', '26.9.4-171' );
 
 /**
  * The code that runs during plugin activation.
