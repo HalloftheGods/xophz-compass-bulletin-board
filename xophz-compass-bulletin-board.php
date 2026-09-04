@@ -51,8 +51,7 @@ function activate_xophz_compass_bulletin_board() {
  * The code that runs during plugin deactivation.
  */
 function deactivate_xophz_compass_bulletin_board() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-xophz-compass-bulletin-board-deactivator.php';
-	Xophz_Compass_Bulletin_Board_Deactivator::deactivate();
+	flush_rewrite_rules();
 }
 
 register_activation_hook( __FILE__, 'activate_xophz_compass_bulletin_board' );
